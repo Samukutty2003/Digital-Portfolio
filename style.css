@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Sans:ital,wght@1,300&family=Pacifico&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Sans:ital,wght@1,300&family=Pacifico&family=Satisfy&family=Young+Serif&display=swap');
+* {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    background: -webkit-linear-gradient(#294242, #0d0d0e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #374bc065;
+}
+
+header {
+    background-color: #927c7c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1000px;
+    height: 1500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #8b416abd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 15px solid #f7d29bc7;
+    box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+.name p {
+    font-size: 65px;
+    margin-top: -160px;
+    margin-left: 400px;
+    background: -webkit-linear-gradient(#e5e5a0, #0a0a0a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#about {
+    margin-top: 150px;
+}
+
+#about p {
+    text-align: center;
+    line-height: 30px;
+}
+
+.detail table {
+    padding-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+.education ul {
+    padding-left: 115px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.education ul li {
+    line-height: 25px;
+}
+
+.contact table {
+    padding-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.my-learning h3 {
+    color: #070707;
+}
+
+.my-learning div {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.my-learning .ms {
+    margin-left: 200px;
+}
+
+.my-learning .ibm {
+    margin-left: 250px;
+}
+
+.line {
+    margin-top: 10px;
+    border: 2px solid #664646;
+    /* 2px is the line size, you can adjust it */
+    width: 1000px;
+    /* Adjust the width as needed */
+    height: 0;
+    /* This keeps the line horizontal */
+    border-radius: 50px;
+}
+
+footer {
+    text-align: center;
+    background-color: #e62424;
+    color: #f5aaaa;
+    padding: 10px 0;
+    line-height: 10px;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer p span {
+    font-size: 10px;
+    text-shadow: 2px 2px 4px rgba(248, 231, 133, 0.568);
+    margin-top: -5px;
+}
+
+
+/* Style for the scrollbar track */
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}
+
+
+/* Style for the scrollbar thumb (the draggable part) */
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+
+/* Style for the scrollbar thumb when hovered */
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* Style for the scrollbar track when the thumb is being dragged */
+
+::-webkit-scrollbar-thumb:active {
+    background-color: rgba(0, 0, 0, 0.733);
+}
